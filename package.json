@@ -1,0 +1,16 @@
+{
+  "name": "@bounded-systems/verb-claude-md",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "CLAUDE.md verbs — validate a claude.config.json and project it, plus the live Claude Code ecosystem, into a generated CLAUDE.md",
+  "scripts": {
+    "verb": "bun run src/cli.ts",
+    "build": "bun build src/cli.ts --outdir dist --target bun",
+    "test": "bun run src/test.ts"
+  },
+  "dependencies": {
+    "@bounded-systems/verbspec": "github:bounded-systems/verbspec",
+    "zod": "^4.4.3"
+  }
+}

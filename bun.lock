@@ -1,0 +1,18 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "@bounded-systems/verb-claude-md",
+      "dependencies": {
+        "@bounded-systems/verbspec": "github:bounded-systems/verbspec",
+        "zod": "^4.4.3",
+      },
+    },
+  },
+  "packages": {
+    "@bounded-systems/verbspec": ["@bounded-systems/verbspec@github:bounded-systems/verbspec#8f2d6ed", { "peerDependencies": { "zod": "^3.25.0 || ^4.0.0" } }, "bounded-systems-verbspec-8f2d6ed", "sha512-AQNwfd5lLwan0x7Q72mb+dn7y1IyCWUH8D5PWsDj2mI9DXqGPWVzm73o2aLQiJYz73In0CeZtOf0pGx3V00QHQ=="],
+
+    "zod": ["zod@4.4.3", "", {}, "sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ=="],
+  }
+}
